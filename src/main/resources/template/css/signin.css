@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/45/7a/04/457a048b99ea2db5588258674d238e5d.jpg');
+    background-size: cover;
+    background-position: top;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="checkbox"] {
+    font-family: cursive;
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.form-container input[type="submit"] {
+    font-family: cursive;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(213, 31, 116, 0.9);
+    color: white;
+    font-size: 18px;
+}
